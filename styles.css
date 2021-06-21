@@ -349,7 +349,7 @@ section {
   }
   .logo {
     top: 10px;
-    left: 40px;
+    left: 20px;
     font-size: 1.5rem;
   }
   .section {
@@ -394,5 +394,11 @@ section {
   }
   .services .service {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 320px) {
+  .home-content {
+    top: 12rem;
   }
 }
